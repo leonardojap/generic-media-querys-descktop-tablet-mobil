@@ -1,0 +1,90 @@
+/*
+*   Created by: Leonardo Alvarado.
+*   email: ing.leonardo92@gmail.com
+    web: leonardoalvarado.com
+*   funcionalidad: css generico para manejo de media-querys en diferentes dispositivos (responsive)
+*   
+*/
+
+
+
+/* 
+  Dispositivo: Escritorio
+  pantalla: 1281px o mas
+*/
+@media (min-width: 1281px) {
+  
+    /*
+        custmizar css aca para escritorio
+    */
+    
+}
+  
+
+
+/* 
+Dispositivos: Laptops, escritorio 
+pantalla: de 1025px a 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+/*
+    custmizar css aca para laptop/escritorio
+*/
+
+}
+
+
+
+/* 
+Dispositivos: Tablets, Ipads (en vertical)
+pantalla: de 768px a 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/*
+    custmizar css aca para Tablets/Ipads en vertical
+*/
+
+}
+
+
+
+/* 
+Dispositivos: Tablets, Ipads (en horizontal)
+pantalla: de 768px a 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+/*
+    custmizar css aca para Tablets/Ipads en horizontal
+*/
+
+}
+
+
+
+/* 
+Dispositivos: Tablets, Telefonos (baja resolicion en horizontal)
+pantalla: de 481px a 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+/*
+    custmizar css aca para Tablets/telefonos en horizontal de baja resolucion
+*/
+}
+
+
+
+/* 
+Dispositivos: Telefonos mobiles genericos / smartphones (en posicion vertical)
+pantalla: de 320px a 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+/*
+    custmizar css aca para telefonos en vertical
+*/
+
+}
